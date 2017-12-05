@@ -64,6 +64,7 @@ var friendsList = [
 	      4
 	    ]
 	}
+
 ];
 
 module.exports = friendsList;

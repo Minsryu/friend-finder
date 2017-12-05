@@ -9,7 +9,11 @@ module.exports = function(app){
 
 	app.post("/api/friends", function(req,res){
 		console.log("this post route");
+		console.log(req.body);
+		console.log(req);
 		friends.push(req.body);
+		
+		// console.log(req);
 		res.json("this worked");
 	});
 
